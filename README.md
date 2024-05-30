@@ -15,3 +15,8 @@ psycopg2-2.9.9
 - Django ile İHA Kiralama sitesi için ilk olarak Python ve VSCode indirilmesi gerekmektedir. Sonrasında Django sayfasında indirme işlemlerimize devam ediyoruz. VSCode gelerek terminalden python -m pip install django
 ile Django kurulumumuzu yapıyoruz.
 - Sonrasında django-admin startproject Proje_Adi girerek ilgili projemizi açıyoruz.
+- Projemize bağlı kategorileri oluşturmak için django-admin startapp Kategori_Adi belirleyerek projemize ait alt kırılımları belirliyoruz.
+- Gerekli ortamlar hazırlandıktan sonra projemize başlayabiliriz.
+- settinggs.py içerisinde INSTALLED_APPS de kırılımlarımızı tanımlıyoruz. DB bağlantılarını yine bu sayfada ayarlıyoruz.
+- Projemize başlıyoruz.
+- Daha önce Python programlama ve SQL ile çalışmalarım olsada Django kullanarak yaptığım ilk projeydi. Benim için keyifli bir süreç oldu. Farklı çalışmalardan uyarlayarak elimden gelenin en iyisini sizlere sunmaya çalıştım. Kurulumlarda ve versiyonlarda yaşadığım sorunlarla vakit kaybettim. İlk deneyime göre çok keyifli bir süreç oldu. Farklı uygulamalardaki kodları inceledim ve kendime nasıl uyarlayabileceğim konusunda fikirler edindim. İha kiralama için görseller seçerken emeği geçen mühendislerden olmayı çok istediğimi fark ettim. Umarım olumlu bir sonuç olur. Projeyi istenilen şekilde yapamadım ama süreç içerisinde elimden geleni yapmaya hazırım. 
